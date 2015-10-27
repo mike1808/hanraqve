@@ -17,3 +17,5 @@ for i in $(seq $start $end); do
         wget -q ${${url//_hi_/$i}//_low_/$j} || break
     done
 done
+
+rm .gitkeep

@@ -5,7 +5,7 @@ Hanraqve Parser
 First you need to scrape XLS files. In order to do executes the following commands
 
 ```bash
-cd db
+mkdir db && cd $_
 ../scrape.sh
 ```
 

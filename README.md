@@ -15,4 +15,4 @@ After you need to save the XLS files into MongoDB
 
 ```bash
 npm install
-node
+npm start

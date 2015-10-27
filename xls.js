@@ -30,8 +30,8 @@ module.exports = function (file) {
         }
 
         entries.push({
-            firstName: a2u(XLSX.utils.format_cell(sheet[cols[1] + rr])),
-            lastName: a2u(XLSX.utils.format_cell(sheet[cols[2] + rr])),
+            lastName: a2u(XLSX.utils.format_cell(sheet[cols[1] + rr])),
+            firstName: a2u(XLSX.utils.format_cell(sheet[cols[2] + rr])),
             fatherName: a2u(XLSX.utils.format_cell(sheet[cols[3] + rr])),
             birthDate: moment(XLSX.utils.format_cell(sheet[cols[4] + rr]), 'DD/MM/YYYY').toDate(),
             address: a2u(XLSX.utils.format_cell(sheet[cols[5] + rr])),
